@@ -17,7 +17,7 @@ CA_pk, CA_sk = Dilithium2.keygen()
 bob_pk, bob_sk = Dilithium2.keygen()
 bob_sig = Dilithium2.sign(CA_sk, bob_pk) 
 print("####  CA signs Bob's public key ####")
-
+print("Length of Bob's signature: ", len(bob_sig))
 
 
 
@@ -47,4 +47,5 @@ print("Is Alice's signature valid (verified by Bob)?", is_valid_alice)
 
 print("**** Bob knows Alice is Authentic using CA ****")
 
-
+# print(Le)
+print("Length of Alice's signature: ", len(alice_sig))

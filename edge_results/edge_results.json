@@ -1,1 +1,805 @@
-{"iterations": 100, "times": [[1, 0.1993715763092041], [2, 0.19890546798706055], [3, 0.19808530807495117], [4, 0.19946742057800293], [5, 0.20006847381591797], [6, 0.1989424228668213], [7, 0.20043373107910156], [8, 0.19934868812561035], [9, 0.19599199295043945], [10, 0.19932126998901367], [11, 0.204268217086792], [12, 0.1957237720489502], [13, 0.19618844985961914], [14, 0.19459319114685059], [15, 0.19544410705566406], [16, 0.19495797157287598], [17, 0.2013874053955078], [18, 0.20025205612182617], [19, 0.19913768768310547], [20, 0.19860529899597168], [21, 0.20301485061645508], [22, 0.20166778564453125], [23, 0.20221638679504395], [24, 0.20445942878723145], [25, 0.20091772079467773], [26, 0.20124435424804688], [27, 0.20295238494873047], [28, 0.2014298439025879], [29, 0.20079445838928223], [30, 0.28562188148498535], [31, 0.19842529296875], [32, 0.1981658935546875], [33, 0.1977231502532959], [34, 0.1976611614227295], [35, 0.19887685775756836], [36, 0.19639158248901367], [37, 0.1987149715423584], [38, 0.19977617263793945], [39, 0.1991264820098877], [40, 0.19551396369934082], [41, 0.19481945037841797], [42, 0.19468188285827637], [43, 0.19720959663391113], [44, 0.19663381576538086], [45, 0.19667577743530273], [46, 0.19453811645507812], [47, 0.1952972412109375], [48, 0.19584345817565918], [49, 0.1976330280303955], [50, 0.19637322425842285], [51, 0.1925039291381836], [52, 0.19175171852111816], [53, 0.1932239532470703], [54, 0.19689440727233887], [55, 0.1998898983001709], [56, 0.19680452346801758], [57, 0.1953415870666504], [58, 0.1947925090789795], [59, 0.19572687149047852], [60, 0.1956169605255127], [61, 0.19081401824951172], [62, 0.23814129829406738], [63, 0.18921828269958496], [64, 0.19523310661315918], [65, 0.19417929649353027], [66, 0.19141554832458496], [67, 0.18909120559692383], [68, 0.19159531593322754], [69, 0.19111156463623047], [70, 0.19034862518310547], [71, 0.1932690143585205], [72, 0.19339752197265625], [73, 0.1912236213684082], [74, 0.19042038917541504], [75, 0.19237017631530762], [76, 0.19122767448425293], [77, 0.1923384666442871], [78, 0.19000792503356934], [79, 0.1928544044494629], [80, 0.19381046295166016], [81, 0.18970489501953125], [82, 0.19268798828125], [83, 0.19187259674072266], [84, 0.19071483612060547], [85, 0.19539642333984375], [86, 0.19294190406799316], [87, 0.19114112854003906], [88, 0.1950845718383789], [89, 0.18909955024719238], [90, 0.19385290145874023], [91, 0.19153189659118652], [92, 0.19254565238952637], [93, 0.1957247257232666], [94, 0.1945958137512207], [95, 0.19472932815551758], [96, 0.19367051124572754], [97, 0.1951732635498047], [98, 0.19561433792114258], [99, 0.19266295433044434], [100, 0.19439387321472168]]}
+{
+    "iterations": 100,
+    "times": [
+        {
+            "iteration": 1,
+            "handshake_time_sec": 0.12424516677856445,
+            "cpu_before": 7.1,
+            "cpu_after": 10.4,
+            "memory_before_mb": 466.78515625,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 2,
+            "handshake_time_sec": 0.12276697158813477,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 3,
+            "handshake_time_sec": 0.12314057350158691,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 4,
+            "handshake_time_sec": 0.12285017967224121,
+            "cpu_before": 0.0,
+            "cpu_after": 10.6,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 5,
+            "handshake_time_sec": 0.1229238510131836,
+            "cpu_before": 0.0,
+            "cpu_after": 11.2,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 6,
+            "handshake_time_sec": 0.12358212471008301,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 7,
+            "handshake_time_sec": 0.12479615211486816,
+            "cpu_before": 0.0,
+            "cpu_after": 10.4,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 8,
+            "handshake_time_sec": 0.12347197532653809,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 9,
+            "handshake_time_sec": 0.12567520141601562,
+            "cpu_before": 0.0,
+            "cpu_after": 10.3,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 10,
+            "handshake_time_sec": 0.12278628349304199,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 11,
+            "handshake_time_sec": 0.12311840057373047,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 12,
+            "handshake_time_sec": 0.12437963485717773,
+            "cpu_before": 0.0,
+            "cpu_after": 9.7,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 13,
+            "handshake_time_sec": 0.12324285507202148,
+            "cpu_before": 0.0,
+            "cpu_after": 10.6,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 14,
+            "handshake_time_sec": 0.12440371513366699,
+            "cpu_before": 0.0,
+            "cpu_after": 9.7,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 15,
+            "handshake_time_sec": 0.12386560440063477,
+            "cpu_before": 0.0,
+            "cpu_after": 10.5,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 16,
+            "handshake_time_sec": 0.12397003173828125,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 17,
+            "handshake_time_sec": 0.12466192245483398,
+            "cpu_before": 0.0,
+            "cpu_after": 9.7,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 18,
+            "handshake_time_sec": 0.12430310249328613,
+            "cpu_before": 0.0,
+            "cpu_after": 10.5,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 19,
+            "handshake_time_sec": 0.12397170066833496,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 20,
+            "handshake_time_sec": 0.12306618690490723,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 21,
+            "handshake_time_sec": 0.12355995178222656,
+            "cpu_before": 0.0,
+            "cpu_after": 11.3,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 22,
+            "handshake_time_sec": 0.12303447723388672,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 23,
+            "handshake_time_sec": 0.12252497673034668,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 24,
+            "handshake_time_sec": 0.1240532398223877,
+            "cpu_before": 0.0,
+            "cpu_after": 10.5,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 25,
+            "handshake_time_sec": 0.1226799488067627,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 26,
+            "handshake_time_sec": 0.12251448631286621,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 27,
+            "handshake_time_sec": 0.12376141548156738,
+            "cpu_before": 0.0,
+            "cpu_after": 11.2,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 466.78125
+        },
+        {
+            "iteration": 28,
+            "handshake_time_sec": 0.12229657173156738,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 466.78125,
+            "memory_after_mb": 470.78125
+        },
+        {
+            "iteration": 29,
+            "handshake_time_sec": 0.12193536758422852,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 470.78125,
+            "memory_after_mb": 470.78125
+        },
+        {
+            "iteration": 30,
+            "handshake_time_sec": 0.12238025665283203,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.78125,
+            "memory_after_mb": 470.78125
+        },
+        {
+            "iteration": 31,
+            "handshake_time_sec": 0.1218404769897461,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 470.78125,
+            "memory_after_mb": 470.78125
+        },
+        {
+            "iteration": 32,
+            "handshake_time_sec": 0.12239742279052734,
+            "cpu_before": 0.0,
+            "cpu_after": 10.7,
+            "memory_before_mb": 470.78125,
+            "memory_after_mb": 470.78125
+        },
+        {
+            "iteration": 33,
+            "handshake_time_sec": 0.12268972396850586,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 470.78125,
+            "memory_after_mb": 470.78125
+        },
+        {
+            "iteration": 34,
+            "handshake_time_sec": 0.12197351455688477,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 470.78125,
+            "memory_after_mb": 470.78125
+        },
+        {
+            "iteration": 35,
+            "handshake_time_sec": 0.12182021141052246,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.78125,
+            "memory_after_mb": 470.78125
+        },
+        {
+            "iteration": 36,
+            "handshake_time_sec": 0.12146401405334473,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.78125,
+            "memory_after_mb": 470.78125
+        },
+        {
+            "iteration": 37,
+            "handshake_time_sec": 0.12209582328796387,
+            "cpu_before": 0.0,
+            "cpu_after": 10.7,
+            "memory_before_mb": 470.78125,
+            "memory_after_mb": 470.78125
+        },
+        {
+            "iteration": 38,
+            "handshake_time_sec": 0.12162065505981445,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 470.78125,
+            "memory_after_mb": 470.78125
+        },
+        {
+            "iteration": 39,
+            "handshake_time_sec": 0.12155795097351074,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.78125,
+            "memory_after_mb": 470.78125
+        },
+        {
+            "iteration": 40,
+            "handshake_time_sec": 0.12242531776428223,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 470.78125,
+            "memory_after_mb": 470.78125
+        },
+        {
+            "iteration": 41,
+            "handshake_time_sec": 0.12430691719055176,
+            "cpu_before": 0.0,
+            "cpu_after": 10.5,
+            "memory_before_mb": 470.78125,
+            "memory_after_mb": 470.7734375
+        },
+        {
+            "iteration": 42,
+            "handshake_time_sec": 0.12044024467468262,
+            "cpu_before": 50.0,
+            "cpu_after": 10.0,
+            "memory_before_mb": 470.7734375,
+            "memory_after_mb": 470.7734375
+        },
+        {
+            "iteration": 43,
+            "handshake_time_sec": 0.12149596214294434,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.7734375,
+            "memory_after_mb": 470.7734375
+        },
+        {
+            "iteration": 44,
+            "handshake_time_sec": 0.1213078498840332,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.7734375,
+            "memory_after_mb": 470.7734375
+        },
+        {
+            "iteration": 45,
+            "handshake_time_sec": 0.1234130859375,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 470.7734375,
+            "memory_after_mb": 470.7734375
+        },
+        {
+            "iteration": 46,
+            "handshake_time_sec": 0.12223243713378906,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 470.7734375,
+            "memory_after_mb": 470.7734375
+        },
+        {
+            "iteration": 47,
+            "handshake_time_sec": 0.12179875373840332,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.7734375,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 48,
+            "handshake_time_sec": 0.12163758277893066,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 49,
+            "handshake_time_sec": 0.12276935577392578,
+            "cpu_before": 0.0,
+            "cpu_after": 10.6,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 50,
+            "handshake_time_sec": 0.12156867980957031,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 51,
+            "handshake_time_sec": 0.12160253524780273,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 52,
+            "handshake_time_sec": 0.1208035945892334,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 53,
+            "handshake_time_sec": 0.12108588218688965,
+            "cpu_before": 0.0,
+            "cpu_after": 10.0,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 54,
+            "handshake_time_sec": 0.12125563621520996,
+            "cpu_before": 0.0,
+            "cpu_after": 10.0,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 55,
+            "handshake_time_sec": 0.12095046043395996,
+            "cpu_before": 0.0,
+            "cpu_after": 10.0,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 56,
+            "handshake_time_sec": 0.12100815773010254,
+            "cpu_before": 0.0,
+            "cpu_after": 10.7,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 57,
+            "handshake_time_sec": 0.12204265594482422,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 58,
+            "handshake_time_sec": 0.12308502197265625,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 59,
+            "handshake_time_sec": 0.12262129783630371,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 60,
+            "handshake_time_sec": 0.12229108810424805,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 61,
+            "handshake_time_sec": 0.1213996410369873,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 62,
+            "handshake_time_sec": 0.12273526191711426,
+            "cpu_before": 0.0,
+            "cpu_after": 10.6,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 63,
+            "handshake_time_sec": 0.12196922302246094,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 64,
+            "handshake_time_sec": 0.1218099594116211,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 65,
+            "handshake_time_sec": 0.12155604362487793,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 66,
+            "handshake_time_sec": 0.12262678146362305,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 67,
+            "handshake_time_sec": 0.12126898765563965,
+            "cpu_before": 0.0,
+            "cpu_after": 10.7,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 68,
+            "handshake_time_sec": 0.1232140064239502,
+            "cpu_before": 0.0,
+            "cpu_after": 10.6,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 69,
+            "handshake_time_sec": 0.12169957160949707,
+            "cpu_before": 0.0,
+            "cpu_after": 10.7,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 70,
+            "handshake_time_sec": 0.12169408798217773,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 71,
+            "handshake_time_sec": 0.1218876838684082,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 72,
+            "handshake_time_sec": 0.12130308151245117,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 73,
+            "handshake_time_sec": 0.12180638313293457,
+            "cpu_before": 0.0,
+            "cpu_after": 10.7,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 74,
+            "handshake_time_sec": 0.12104320526123047,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 75,
+            "handshake_time_sec": 0.1214592456817627,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 76,
+            "handshake_time_sec": 0.12157678604125977,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 77,
+            "handshake_time_sec": 0.12216377258300781,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 78,
+            "handshake_time_sec": 0.12249922752380371,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 79,
+            "handshake_time_sec": 0.12244439125061035,
+            "cpu_before": 0.0,
+            "cpu_after": 10.6,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 80,
+            "handshake_time_sec": 0.12223529815673828,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 81,
+            "handshake_time_sec": 0.12261557579040527,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.76953125
+        },
+        {
+            "iteration": 82,
+            "handshake_time_sec": 0.12347936630249023,
+            "cpu_before": 0.0,
+            "cpu_after": 10.7,
+            "memory_before_mb": 470.76953125,
+            "memory_after_mb": 470.75390625
+        },
+        {
+            "iteration": 83,
+            "handshake_time_sec": 0.12198233604431152,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 470.75390625,
+            "memory_after_mb": 470.75390625
+        },
+        {
+            "iteration": 84,
+            "handshake_time_sec": 0.12192201614379883,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.75390625,
+            "memory_after_mb": 470.74609375
+        },
+        {
+            "iteration": 85,
+            "handshake_time_sec": 0.12225747108459473,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.74609375,
+            "memory_after_mb": 470.74609375
+        },
+        {
+            "iteration": 86,
+            "handshake_time_sec": 0.1217198371887207,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 470.74609375,
+            "memory_after_mb": 470.74609375
+        },
+        {
+            "iteration": 87,
+            "handshake_time_sec": 0.12152528762817383,
+            "cpu_before": 0.0,
+            "cpu_after": 10.7,
+            "memory_before_mb": 470.74609375,
+            "memory_after_mb": 470.74609375
+        },
+        {
+            "iteration": 88,
+            "handshake_time_sec": 0.1210317611694336,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.74609375,
+            "memory_after_mb": 470.74609375
+        },
+        {
+            "iteration": 89,
+            "handshake_time_sec": 0.12172079086303711,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.74609375,
+            "memory_after_mb": 470.74609375
+        },
+        {
+            "iteration": 90,
+            "handshake_time_sec": 0.12249875068664551,
+            "cpu_before": 0.0,
+            "cpu_after": 10.6,
+            "memory_before_mb": 470.74609375,
+            "memory_after_mb": 470.74609375
+        },
+        {
+            "iteration": 91,
+            "handshake_time_sec": 0.12198066711425781,
+            "cpu_before": 0.0,
+            "cpu_after": 10.6,
+            "memory_before_mb": 470.74609375,
+            "memory_after_mb": 470.74609375
+        },
+        {
+            "iteration": 92,
+            "handshake_time_sec": 0.1207115650177002,
+            "cpu_before": 0.0,
+            "cpu_after": 10.0,
+            "memory_before_mb": 470.74609375,
+            "memory_after_mb": 470.74609375
+        },
+        {
+            "iteration": 93,
+            "handshake_time_sec": 0.12119841575622559,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.74609375,
+            "memory_after_mb": 470.74609375
+        },
+        {
+            "iteration": 94,
+            "handshake_time_sec": 0.12308406829833984,
+            "cpu_before": 0.0,
+            "cpu_after": 9.8,
+            "memory_before_mb": 470.74609375,
+            "memory_after_mb": 470.7421875
+        },
+        {
+            "iteration": 95,
+            "handshake_time_sec": 0.12105059623718262,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.7421875,
+            "memory_after_mb": 470.7421875
+        },
+        {
+            "iteration": 96,
+            "handshake_time_sec": 0.1207115650177002,
+            "cpu_before": 0.0,
+            "cpu_after": 10.7,
+            "memory_before_mb": 470.7421875,
+            "memory_after_mb": 470.7421875
+        },
+        {
+            "iteration": 97,
+            "handshake_time_sec": 0.12109732627868652,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.7421875,
+            "memory_after_mb": 470.7421875
+        },
+        {
+            "iteration": 98,
+            "handshake_time_sec": 0.12067341804504395,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.7421875,
+            "memory_after_mb": 470.7421875
+        },
+        {
+            "iteration": 99,
+            "handshake_time_sec": 0.12116503715515137,
+            "cpu_before": 0.0,
+            "cpu_after": 9.9,
+            "memory_before_mb": 470.7421875,
+            "memory_after_mb": 470.7421875
+        },
+        {
+            "iteration": 100,
+            "handshake_time_sec": 0.1219339370727539,
+            "cpu_before": 0.0,
+            "cpu_after": 10.7,
+            "memory_before_mb": 470.7421875,
+            "memory_after_mb": 470.7421875
+        }
+    ]
+}

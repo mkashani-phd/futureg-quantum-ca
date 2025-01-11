@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y \
 # Copy and install Python dependencies
 COPY requirements.txt /tmp/requirements.txt
 RUN pip install --no-cache-dir -r /tmp/requirements.txt
+RUN pip install psutil
 
 # Set the working directory
 WORKDIR /app

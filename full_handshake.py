@@ -1,7 +1,7 @@
 import time
 import os
 import sys
-import psutil  # Import for CPU and memory tracking
+import psutil  
 import json
 
 # Add paths
